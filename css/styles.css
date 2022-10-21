@@ -40,6 +40,21 @@ body{
     justify-content: space-around;
     font-weight: bold;
     opacity: 85%;
+    animation: scrubmotion 2s ease infinite alternate-reverse;
+}
+
+.upper-left-text2{
+    display: flex;
+    width: 50%;
+    padding-left: 10%;
+    padding-top: 25px;
+    color: rgb(224, 2, 2);
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+    font-weight: bold;
+    opacity: 85%;
+    animation: scrubmotion 2.5s ease infinite alternate-reverse;
+    animation-delay: .3s;
 }
 
 
@@ -54,14 +69,25 @@ body{
     opacity: 85%;
     padding-left: 15%;
     padding-top: 7px;
+    animation: scrubmotion 3s ease infinite alternate-reverse;
 }
+
+@keyframes scrubmotion{
+    from {
+        transform: translateX(80vw);
+      }
+      to {
+        transform: translateX(0);
+        /* unset properties i.e. 'filter' will revert to default values */
+      }
+    }
 
 .keep2{ 
     padding-left: 100px;
 }
 
 .scrubbing2{ 
-    padding-left: 520px;
+    padding-left: 400px;
 }
 
 
@@ -101,20 +127,549 @@ body{
 }
 
 
-
-
-
-
-
 .empty{
     background-color: whitesmoke;
     /* border: 1px solid;  */
 }
 
-.b{
-    background-color: #0294c2;
+.color{
+    background-color: #10b2e4 ;
     /* border: 2px solid;  */
 }
+
+
+
+
+
+.a{ 
+    animation: clean 8s ease infinite;
+    animation-delay: 0s;
+    }
+    
+    .b{ 
+        animation: clean 8s ease infinite;
+        animation-delay: .1s;
+    }
+    
+    .c{
+        animation: clean 8s ease infinite;
+        animation-delay: .2s;
+    }
+    
+    .d{
+        animation: clean 8s ease infinite;
+        animation-delay: .3s;
+    }
+    
+    .e{
+        animation: clean 8s ease infinite;
+        animation-delay: .4s;
+    }
+    
+    .f{
+        animation: clean 8s ease infinite;
+        animation-delay: .5s;
+    }
+    
+    .g{
+        animation: clean 8s ease infinite;
+        animation-delay: .6s;
+    }
+    
+    .h{
+        animation: clean 8s ease infinite;
+        animation-delay: .7s;
+    }
+    
+    .i{
+        animation: clean 8s ease infinite;
+        animation-delay: .8s;
+    }
+    
+    .j{
+        animation: clean 8s ease infinite;
+        animation-delay: .9s;
+    }
+    
+    .k{
+        animation: clean 8s ease infinite;
+        animation-delay: 1s;
+    }
+    
+    .l{
+        animation: clean 8s ease infinite;
+        animation-delay: 1.1s;
+    }
+    
+    .m{
+        animation: clean 8s ease infinite;
+        animation-delay: 1.2s;
+    }
+    
+    .n{
+        animation: clean 8s ease infinite;
+        animation-delay: 1.3s;
+    }
+    
+    .o{
+        animation: clean 8s ease infinite;
+        animation-delay: 1.4s;
+    }
+    
+    .p{
+        animation: clean 8s ease infinite;
+        animation-delay: 1.5s;
+    }
+    
+    .q{
+        animation: clean 8s ease infinite;
+        animation-delay: 1.6s;
+    }
+    
+    .r{
+        animation: clean 8s ease infinite;
+        animation-delay: 1.7s;
+    }
+    
+    .s{
+        animation: clean 8s ease infinite;
+        animation-delay: 1.8s;
+    }
+    
+    .t{
+        animation: clean 8s ease infinite;
+        animation-delay: 1.9s;
+    }
+    
+    .u{
+        animation: clean 8s ease infinite;
+        animation-delay: 2s;
+    }
+    
+    .v{
+        animation: clean 8s ease infinite;
+        animation-delay: 2.1s;
+    }
+    
+    .w{
+        animation: clean 8s ease infinite;
+        animation-delay: 2.2s;
+    }
+    
+    .x{
+        animation: clean 8s ease infinite;
+        animation-delay: 2.3s;
+    }
+    
+    .y{
+        animation: clean 8s ease infinite;
+        animation-delay: 2.4s;
+    }
+    
+    .z{
+        animation: clean 8s ease infinite;
+        animation-delay: 2.5s;
+    }
+    
+    .aa{ 
+        animation: clean 8s ease infinite;
+        animation-delay: 2.6s;
+        }
+        
+        .bb{ 
+            animation: clean 8s ease infinite;
+            animation-delay: 2.7s;
+        }
+        
+        .cc{
+            animation: clean 8s ease infinite; 
+            animation-delay: 2.8s;
+        }
+        
+        .dd{
+            animation: clean 8s ease infinite;
+            animation-delay: 2.9s;
+        }
+        
+        .ee{
+            animation: clean 8s ease infinite;
+            animation-delay: 3s;
+        }
+        
+        .ff{
+            animation: clean 8s ease infinite;
+            animation-delay: 3.1s;
+        }
+        
+        .gg{
+            animation: clean 8s ease infinite;
+            animation-delay: 3.2s;
+        }
+        
+        .hh{
+            animation: clean 8s ease infinite;
+            animation-delay: 3.3s;
+        }
+        
+        .ii{
+            animation: clean 8s ease infinite;
+            animation-delay: 3.4s;
+        }
+        
+        .jj{
+            animation: clean 8s ease infinite;
+            animation-delay: 3.5s;
+        }
+        
+        .kk{
+            animation: clean 8s ease infinite;
+            animation-delay: 3.6s;
+        }
+        
+        .ll{
+            animation: clean 8s ease infinite;
+            animation-delay: 3.7s;
+        }
+        
+        .mm{
+            animation: clean 8s ease infinite;
+            animation-delay: 3.8s;
+        }
+        
+        .nn{
+            animation: clean 8s ease infinite;
+            animation-delay: 3.9s;
+        }
+        
+        .oo{
+            animation: clean 8s ease infinite;
+            animation-delay: 4s;
+        }
+        
+        .pp{
+            animation: clean 8s ease infinite;
+            animation-delay: 4.1s;
+        }
+        
+        .qq{
+            animation: clean 8s ease infinite;
+            animation-delay: 4.2s;
+        }
+        
+        .rr{
+            animation: clean 8s ease infinite;
+            animation-delay: 4.3s;
+        }
+        
+        .ss{
+            animation: clean 8s ease infinite;
+            animation-delay: 4.4s;
+        }
+        
+        .tt{
+            animation: clean 8s ease infinite;
+            animation-delay: 4.5s;
+        }
+        
+        .uu{
+            animation: clean 8s ease infinite; 
+            animation-delay: 4.6s;
+        }
+        
+        .vv{
+            animation: clean 8s ease infinite;
+            animation-delay: 4.7s;
+        }
+        
+        .ww{
+            animation: clean 8s ease infinite;
+            animation-delay: 4.8s;
+        }
+        
+        .xx{
+            animation: clean 8s ease infinite;
+            animation-delay: 4.9s;
+        }
+        
+        .yy{
+            animation: clean 8s ease infinite;
+            animation-delay: 5s;
+        }
+        
+        .zz{
+            animation: clean 8s ease infinite;
+            animation-delay: 5.1s;
+        }
+        
+        .aaa{
+            animation: clean 8s ease infinite;
+            animation-delay: 5.2s;
+        }
+            
+            .bbb{ 
+                animation: clean 8s ease infinite;
+                animation-delay: 5.3s;
+            }
+            
+            .ccc{
+                animation: clean 8s ease infinite; 
+                animation-delay: 5.4s;
+            }
+            
+            .ddd{
+                animation: clean 8s ease infinite;
+                animation-delay: 5.5s;
+            }
+            
+            .eee{
+                animation: clean 8s ease infinite;
+                animation-delay: 5.6s;
+            }
+            
+            .fff{
+                animation: clean 8s ease infinite;
+                animation-delay: 5.7s;
+            }
+            
+            .ggg{
+                animation: clean 8s ease infinite;
+                animation-delay: 5.8s;
+            }
+            
+            .hhh{
+                animation: clean 8s ease infinite;
+                animation-delay: 5.9s;
+            }
+            
+            .iii{
+                animation: clean 8s ease infinite;
+                animation-delay: 6s;
+            }
+            
+            .jjj{
+                animation: clean 8s ease infinite;
+                animation-delay: 6.1s;
+            }
+            
+            .kkk{
+                animation: clean 8s ease infinite;
+                animation-delay: 6.2s;
+            }
+            
+            .lll{
+                animation: clean 8s ease infinite;
+                animation-delay: 6.3s;
+            }
+            
+            .mmm{
+                animation: clean 8s ease infinite;
+                animation-delay: 6.4s;
+            }
+            
+            .nnn{
+                animation: clean 8s ease infinite;
+                animation-delay: 6.5s;
+            }
+            
+            .ooo{
+                animation: clean 8s ease infinite;
+                animation-delay: 6.6s;
+            }
+            
+            .ppp{
+                animation: clean 8s ease infinite;
+                animation-delay: 6.7s;
+            }
+            
+            .qqq{
+                animation: clean 8s ease infinite;
+                animation-delay: 6.8s;
+            }
+            
+            .rrr{
+                animation: clean 8s ease infinite;
+                animation-delay: 6.9s;
+            }
+            
+            .sss{
+                animation: clean 8s ease infinite;
+                animation-delay: 7s;
+            }
+            
+            .ttt{
+                animation: clean 8s ease infinite;
+                animation-delay: 7.1s;
+            }
+            
+            .uuu{
+                animation: clean 8s ease infinite; 
+                animation-delay: 7.2s;
+            }
+            
+            .vvv{
+                animation: clean 8s ease infinite;
+                animation-delay: 7.3s;
+            }
+            
+            .www{
+                animation: clean 8s ease infinite;
+                animation-delay: 7.4s;
+            }
+            
+            .xxx{
+                animation: clean 8s ease infinite;
+                animation-delay: 7.5s;
+            }
+            
+            .yyy{
+                animation: clean 8s ease infinite;
+                animation-delay: 7.6s;
+            }
+            
+            .zzz{
+                animation: clean 8s ease infinite;
+                animation-delay: 7.7s;
+            }
+    
+            .aaaa{
+                animation: clean 8s ease infinite;
+                animation-delay: 7.8s;
+            }
+                
+                .bbbb{ 
+                    animation: clean 8s ease infinite;
+                    animation-delay: 7.9s;
+                }
+                
+                .cccc{
+                    animation: clean 8s ease infinite; 
+                    animation-delay: 8s;
+                }
+                
+                .dddd{
+                    animation: clean 8s ease infinite;
+                    animation-delay: 8.1s;
+                }
+                
+                .eeee{
+                    animation: clean 8s ease infinite;
+                    animation-delay: 8.2s;
+                }
+                
+                .ffff{
+                    animation: clean 8s ease infinite;
+                    animation-delay: 8.3s;
+                }
+                
+                .gggg{
+                    animation: clean 8s ease infinite;
+                    animation-delay: 8.4s;
+                }
+                
+                .hhhh{
+                    animation: clean 8s ease infinite;
+                    animation-delay: 8.9s;
+                }
+                
+                .iiii{
+                    animation: clean 8s ease infinite;
+                    animation-delay: 9s;
+                }
+                
+                .jjjj{
+                    animation: clean 8s ease infinite;
+                    animation-delay: 9.1s;
+                }
+                
+                .kkkk{
+                    animation: clean 8s ease infinite;
+                    animation-delay: 9.2s;
+                }
+                
+                .llll{
+                    animation: clean 8s ease infinite;
+                    animation-delay: 9.3s;
+                }
+                
+                .mmmm{
+                    animation: clean 8s ease infinite;
+                    animation-delay: 9.4s;
+                }
+                
+                .nnnn{
+                    animation: clean 8s ease infinite;
+                    animation-delay: 9.5s;
+                }
+                
+                .oooo{
+                    animation: clean 8s ease infinite;
+                    animation-delay: 9.6s;
+                }
+                
+                .pppp{
+                    animation: clean 8s ease infinite;
+                    animation-delay: 9.7s;
+                }
+                
+                .qqqq{
+                    animation: clean 8s ease infinite;
+                    animation-delay: 9.8s;
+                }
+                
+                .rrrr{
+                    animation: clean 8s ease infinite;
+                    animation-delay: 9.9s;
+                }
+                
+                .ssss{
+                    animation: clean 8s ease infinite;
+                    animation-delay: 10s;
+                }
+                
+                .tttt{
+                    animation: clean 8s ease infinite;
+                    animation-delay: 10.1s;
+                }
+                
+                .uuuu{
+                    animation: clean 8s ease infinite; 
+                    animation-delay: 10.2s;
+                }
+                
+                .vvvv{
+                    animation: clean 8s ease infinite;
+                    animation-delay: 10.3s;
+                }
+                
+                .wwww{
+                    animation: clean 8s ease infinite;
+                    animation-delay: 10.4s;
+                }
+    
+    
+    
+    
+    @keyframes clean {
+        25%{opacity: 50%;}
+        50%{opacity: 0%;}
+        75%{opacity: 50%;}
+        100%{opacity: 100%;}
+    }
+
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .flex-text {
