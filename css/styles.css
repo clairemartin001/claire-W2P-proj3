@@ -24,6 +24,7 @@ body{
 .right-side-spread{ 
     width: 50%;
     box-shadow: -3px 0px 30px -2px #888;
+
 }
 
 
@@ -667,11 +668,6 @@ body{
 
 
 
-
-
-
-
-
 .flex-text {
     display: flex;
     justify-content: center;
@@ -698,12 +694,177 @@ body{
 
   .large{
     font-size: 80px;
+    
 
   }
 
-  .med{
+  .large1{
+    font-size: 80px;
+    animation: makelarger .8s ease alternate-reverse;
+
+  }
+
+  .large2{
+    font-size: 80px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: .5s;
+  }
+
+  .large3{
+    font-size: 80px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 1s;
+  }
+
+  .large4{
+    font-size: 80px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 1.5s;
+  }
+
+  .large5{
+    font-size: 80px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 2s;
+  }
+
+  .large6{
+    font-size: 80px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 2.5s;
+  }
+
+
+  .large7{
+    font-size: 80px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 3s;
+  }
+
+
+  .large8{
+    font-size: 80px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 3.5s;
+  }
+
+  .large9{
+    font-size: 80px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 4s;
+  }
+
+  .large10{
+    font-size: 80px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 4.5s;
+  }
+
+  .large11{
+    font-size: 80px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 5s;
+  }
+
+  .large12{
+    font-size: 80px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 5.5s;
+  }
+
+  .large13{
+    font-size: 80px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 6.5s;
+  }
+
+  .large14{
+    font-size: 80px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 7s;
+  }
+
+
+  .med15{
     font-size: 65px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 7.5s;
   }
+
+  .med16{
+    font-size: 65px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 8s;
+  }
+
+  .med17{
+    font-size: 65px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 8.5s;
+  }
+
+  .med18{
+    font-size: 65px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 9s;
+  }
+
+  .med19{
+    font-size: 65px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 9.5s;
+  }
+
+  .med20{
+    font-size: 65px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 10s;
+  }
+
+  .med21{
+    font-size: 65px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 10.5s;
+  }
+
+  .med22{
+    font-size: 65px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 11s;
+  }
+
+  .med23{
+    font-size: 65px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 11.5s;
+  }
+
+  .med24{
+    font-size: 65px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 12s;
+  }
+
+  .med25{
+    font-size: 65px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 12.5s;
+  }
+
+  .med26{
+    font-size: 65px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 13s;
+  }
+
+  .med27{
+    font-size: 65px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 13.5s;
+  }
+
+
+
 
   .small{
     font-size: 50px;
@@ -1040,6 +1201,11 @@ body{
     grid-column-end: 23;
 
 }
+
+@keyframes makelarger{
+    50%{transform: scale(1.5);}
+}
+
 
 
 
