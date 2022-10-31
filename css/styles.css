@@ -134,7 +134,7 @@ body{
 }
 
 .color{
-    background-color: #10b2e4 ;
+    background-color: #0195c2 ;
     /* border: 2px solid;  */
 }
 
@@ -707,168 +707,259 @@ body{
   .large2{
     font-size: 80px;
     animation: makelarger .8s ease alternate-reverse;
-    animation-delay: .5s;
+    animation-delay: .3s;
   }
 
   .large3{
     font-size: 80px;
     animation: makelarger .8s ease alternate-reverse;
-    animation-delay: 1s;
+    animation-delay: .6s;
   }
 
   .large4{
     font-size: 80px;
     animation: makelarger .8s ease alternate-reverse;
-    animation-delay: 1.5s;
+    animation-delay: .9s;
   }
 
   .large5{
     font-size: 80px;
     animation: makelarger .8s ease alternate-reverse;
-    animation-delay: 2s;
+    animation-delay: 1.2s;
   }
 
   .large6{
     font-size: 80px;
     animation: makelarger .8s ease alternate-reverse;
-    animation-delay: 2.5s;
+    animation-delay: 1.5s;
   }
 
 
   .large7{
     font-size: 80px;
     animation: makelarger .8s ease alternate-reverse;
-    animation-delay: 3s;
+    animation-delay: 1.8s;
   }
 
 
   .large8{
     font-size: 80px;
     animation: makelarger .8s ease alternate-reverse;
-    animation-delay: 3.5s;
+    animation-delay: 2.1s;
   }
 
   .large9{
     font-size: 80px;
     animation: makelarger .8s ease alternate-reverse;
-    animation-delay: 4s;
+    animation-delay: 2.4s;
   }
 
   .large10{
     font-size: 80px;
     animation: makelarger .8s ease alternate-reverse;
-    animation-delay: 4.5s;
+    animation-delay: 2.7s;
   }
 
   .large11{
     font-size: 80px;
     animation: makelarger .8s ease alternate-reverse;
-    animation-delay: 5s;
+    animation-delay: 3s;
   }
 
   .large12{
     font-size: 80px;
     animation: makelarger .8s ease alternate-reverse;
-    animation-delay: 5.5s;
+    animation-delay: 3.3s;
   }
 
   .large13{
     font-size: 80px;
     animation: makelarger .8s ease alternate-reverse;
-    animation-delay: 6.5s;
+    animation-delay: 3.6s;
   }
 
   .large14{
     font-size: 80px;
     animation: makelarger .8s ease alternate-reverse;
-    animation-delay: 7s;
+    animation-delay: 3.9s;
   }
 
 
   .med15{
     font-size: 65px;
     animation: makelarger .8s ease alternate-reverse;
-    animation-delay: 7.5s;
+    animation-delay: 4.2s;
   }
 
   .med16{
     font-size: 65px;
     animation: makelarger .8s ease alternate-reverse;
-    animation-delay: 8s;
+    animation-delay: 4.5s;
   }
 
   .med17{
     font-size: 65px;
     animation: makelarger .8s ease alternate-reverse;
-    animation-delay: 8.5s;
+    animation-delay: 4.8s;
   }
 
   .med18{
     font-size: 65px;
     animation: makelarger .8s ease alternate-reverse;
-    animation-delay: 9s;
+    animation-delay: 5.1s;
   }
 
   .med19{
     font-size: 65px;
     animation: makelarger .8s ease alternate-reverse;
-    animation-delay: 9.5s;
+    animation-delay: 5.4s;
   }
 
   .med20{
     font-size: 65px;
     animation: makelarger .8s ease alternate-reverse;
-    animation-delay: 10s;
+    animation-delay: 5.7s;
   }
 
   .med21{
     font-size: 65px;
     animation: makelarger .8s ease alternate-reverse;
-    animation-delay: 10.5s;
+    animation-delay: 6s;
   }
 
   .med22{
     font-size: 65px;
     animation: makelarger .8s ease alternate-reverse;
-    animation-delay: 11s;
+    animation-delay: 6.3s;
   }
 
   .med23{
     font-size: 65px;
     animation: makelarger .8s ease alternate-reverse;
-    animation-delay: 11.5s;
+    animation-delay: 6.6s;
   }
 
   .med24{
     font-size: 65px;
     animation: makelarger .8s ease alternate-reverse;
-    animation-delay: 12s;
+    animation-delay: 6.9s;
   }
 
   .med25{
     font-size: 65px;
     animation: makelarger .8s ease alternate-reverse;
-    animation-delay: 12.5s;
+    animation-delay: 7.2s;
   }
 
   .med26{
     font-size: 65px;
     animation: makelarger .8s ease alternate-reverse;
-    animation-delay: 13s;
+    animation-delay: 7.5s;
   }
 
   .med27{
     font-size: 65px;
     animation: makelarger .8s ease alternate-reverse;
-    animation-delay: 13.5s;
+    animation-delay: 7.8s;
   }
 
-
-
-
-  .small{
+  .small28{
     font-size: 50px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 8.1s;
   }
+
+  .small29{
+    font-size: 50px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 8.4s;
+  }
+
+  .small30{
+    font-size: 50px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 8.7s;
+  }
+
+  .small31{
+    font-size: 50px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 9s;
+  }
+
+  .small32{
+    font-size: 50px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 9.3s;
+  }
+
+  .small33{
+    font-size: 50px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 9.6s;
+  }
+
+  .small34{
+    font-size: 50px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 9.9s;
+  }
+
+  .small35{
+    font-size: 50px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 10.2s;
+  }
+
+  .small36{
+    font-size: 50px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 10.5s;
+  }
+
+  .small37{
+    font-size: 50px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 10.8s;
+  }
+
+  .small38{
+    font-size: 50px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 11.1s;
+  }
+
+  .small39{
+    font-size: 50px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 11.4s;
+  }
+
+  .xsmall40{
+    font-size: 40px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 11.7s;
+  }
+
+  .xsmall41{
+    font-size: 40px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 12s;
+  }
+
+  .xsmall42{
+    font-size: 40px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 12.3s;
+  }
+
+  .xsmall43{
+    font-size: 40px;
+    animation: makelarger .8s ease alternate-reverse;
+    animation-delay: 12.7s;
+  }
+
+
 
   .xsmall{
     font-size: 40px;
