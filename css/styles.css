@@ -79,7 +79,6 @@ body{
       }
       to {
         transform: translateX(0);
-        /* unset properties i.e. 'filter' will revert to default values */
       }
     }
 
@@ -677,7 +676,7 @@ body{
     color: rgb(224, 2, 2);
     position: absolute;
     left: 6%;
-    top: 18%;
+    top: 13%;
     z-index: 2;
     opacity: 85%;
     
@@ -1294,7 +1293,7 @@ body{
 }
 
 @keyframes makelarger{
-    50%{transform: scale(1.5);}
+    50%{transform: scale(2.2); color: rgb(244, 185, 185);}
 }
 
 
